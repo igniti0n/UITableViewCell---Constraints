@@ -13,6 +13,11 @@
 		2CA1890726C1071F00341F03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA1890526C1071F00341F03 /* Main.storyboard */; };
 		2CA1890926C1072200341F03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CA1890826C1072200341F03 /* Assets.xcassets */; };
 		2CA1890C26C1072200341F03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA1890A26C1072200341F03 /* LaunchScreen.storyboard */; };
+		2CA1891426C1090D00341F03 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA1891326C1090D00341F03 /* ImageTableViewCell.swift */; };
+		2CA1891626C10BD300341F03 /* ImageTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA1891526C10BD300341F03 /* ImageTableCell.swift */; };
+		2CA1891826C11F6E00341F03 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA1891726C11F6E00341F03 /* DetailViewController.swift */; };
+		2CA1891B26C148C600341F03 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA1891926C148C600341F03 /* TableViewCell.swift */; };
+		2CA1891C26C148C600341F03 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CA1891A26C148C600341F03 /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		2CA1890826C1072200341F03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CA1890B26C1072200341F03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CA1890D26C1072200341F03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CA1891326C1090D00341F03 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		2CA1891526C10BD300341F03 /* ImageTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableCell.swift; sourceTree = "<group>"; };
+		2CA1891726C11F6E00341F03 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		2CA1891926C148C600341F03 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		2CA1891A26C148C600341F03 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +70,14 @@
 				2CA1890126C1071F00341F03 /* SceneDelegate.swift */,
 				2CA1890326C1071F00341F03 /* ViewController.swift */,
 				2CA1890526C1071F00341F03 /* Main.storyboard */,
+				2CA1891726C11F6E00341F03 /* DetailViewController.swift */,
+				2CA1891326C1090D00341F03 /* ImageTableViewCell.swift */,
+				2CA1891526C10BD300341F03 /* ImageTableCell.swift */,
 				2CA1890826C1072200341F03 /* Assets.xcassets */,
 				2CA1890A26C1072200341F03 /* LaunchScreen.storyboard */,
 				2CA1890D26C1072200341F03 /* Info.plist */,
+				2CA1891926C148C600341F03 /* TableViewCell.swift */,
+				2CA1891A26C148C600341F03 /* TableViewCell.xib */,
 			);
 			path = "Challenge - Picutres,tableView";
 			sourceTree = "<group>";
@@ -125,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CA1890C26C1072200341F03 /* LaunchScreen.storyboard in Resources */,
+				2CA1891C26C148C600341F03 /* TableViewCell.xib in Resources */,
 				2CA1890926C1072200341F03 /* Assets.xcassets in Resources */,
 				2CA1890726C1071F00341F03 /* Main.storyboard in Resources */,
 			);
@@ -137,8 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CA1891626C10BD300341F03 /* ImageTableCell.swift in Sources */,
 				2CA1890426C1071F00341F03 /* ViewController.swift in Sources */,
+				2CA1891426C1090D00341F03 /* ImageTableViewCell.swift in Sources */,
+				2CA1891826C11F6E00341F03 /* DetailViewController.swift in Sources */,
 				2CA1890026C1071F00341F03 /* AppDelegate.swift in Sources */,
+				2CA1891B26C148C600341F03 /* TableViewCell.swift in Sources */,
 				2CA1890226C1071F00341F03 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
